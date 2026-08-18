@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="384mm" height="232mm" viewBox="0 0 384 232">
+  <title>MASTER - Aceclofenac Paracetamol Trypsin-Chymotrypsin Carton (117x72x70)</title>
+
+  <!-- Carton: Length 117 mm x Height 72 mm x Width 70 mm; flap height = box width = 70 mm -->
+  <!-- MASTER TEMPLATE: dieline + fixed regulatory text only. No design layer, no brand, no customer. -->
+  <rect x="0" y="0" width="384" height="232" fill="#FFFFFF"/>
+
+  <!-- ================= DIELINE (UNTOUCHABLE) ================= -->
+  <g fill="none" stroke="#999999" stroke-width="0.2">
+    <rect x="72" y="6" width="117" height="8"/>           <!-- dust flap -->
+    <rect x="72" y="14" width="117" height="70"/>         <!-- tuck flap (H = box width 70) -->
+    <rect x="2" y="84" width="70" height="72"/>           <!-- end panel (W70 x H72) -->
+    <rect x="72" y="84" width="117" height="72"/>         <!-- front panel (L117 x H72) -->
+    <rect x="189" y="84" width="70" height="72"/>         <!-- composition panel (W70 x H72) -->
+    <rect x="259" y="84" width="117" height="72"/>        <!-- back panel (L117 x H72) -->
+    <rect x="376" y="84" width="6" height="72"/>          <!-- glue flap -->
+    <rect x="72" y="156" width="117" height="70"/>        <!-- bottom flap front (H = box width 70) -->
+    <rect x="259" y="156" width="117" height="70"/>       <!-- bottom flap back (H = box width 70) -->
+  </g>
+
+  <!-- ================= TUCK FLAP (inverted; brand name goes at y=30 in this group, 2pt smaller than generic) ================= -->
+  <g transform="rotate(180 130.5 49)">
+    <text x="130.5" y="38" font-family="Arial" font-weight="bold" font-size="5.64" fill="#000000" text-anchor="middle">Aceclofenac, Paracetamol &amp;</text>
+    <text x="130.5" y="45" font-family="Arial" font-weight="bold" font-size="5.64" fill="#000000" text-anchor="middle">Trypsin - Chymotrypsin</text>
+    <text x="130.5" y="52" font-family="Arial" font-weight="bold" font-size="5.64" fill="#000000" text-anchor="middle">Tablets</text>
+    <text x="130.5" y="58.5" font-family="Arial" font-weight="bold" font-size="2.82" fill="#000000" text-anchor="middle">10 X 10 Tablets</text>
+  </g>
+
+  <!-- ================= FRONT PANEL (brand name goes at y=133, 2pt smaller; design layer allowed inside panel) ================= -->
+  <text x="185" y="101" font-family="Arial" font-weight="bold" font-size="2.82" fill="#000000" text-anchor="end">10 X 10 Tablets</text>
+  <text x="78" y="110" font-family="Arial" font-weight="bold" font-size="5.64" fill="#000000">Aceclofenac, Paracetamol &amp;</text>
+  <text x="78" y="117" font-family="Arial" font-weight="bold" font-size="5.64" fill="#000000">Trypsin - Chymotrypsin</text>
+  <text x="78" y="124" font-family="Arial" font-weight="bold" font-size="5.64" fill="#000000">Tablets</text>
+
+  <!-- ================= COMPOSITION PANEL (fixed regulatory text) ================= -->
+  <text x="191" y="88" font-family="Arial" font-size="1.9" fill="#000000">Each film coated tablet contains :</text>
+  <text x="191" y="90.5" font-family="Arial" font-size="1.9" fill="#000000">Aceclofenac</text>
+  <text x="220" y="90.5" font-family="Arial" font-size="1.9" fill="#000000">I.P.</text>
+  <text x="255" y="90.5" font-family="Arial" font-size="1.9" fill="#000000" text-anchor="end">100 mg.</text>
+  <text x="191" y="93" font-family="Arial" font-size="1.9" fill="#000000">Paracetamol</text>
+  <text x="220" y="93" font-family="Arial" font-size="1.9" fill="#000000">I.P.</text>
+  <text x="255" y="93" font-family="Arial" font-size="1.9" fill="#000000" text-anchor="end">325 mg.</text>
+  <text x="191" y="95.5" font-family="Arial" font-size="1.9" fill="#000000">1.5 Lac Armour units of Enzymatics Activity (Supplied by a</text>
+  <text x="191" y="98" font-family="Arial" font-size="1.9" fill="#000000">purified concentrate which has specific Trypsin and</text>
+  <text x="191" y="100.5" font-family="Arial" font-size="1.9" fill="#000000">Chymotrypsin Activity in a ratio of Approximately 6:1</text>
+  <text x="191" y="103" font-family="Arial" font-size="1.9" fill="#000000">Excipients</text>
+  <text x="255" y="103" font-family="Arial" font-size="1.9" fill="#000000" text-anchor="end">Q.s.</text>
+  <text x="191" y="105.5" font-family="Arial" font-size="1.9" fill="#000000">Colour :  Sunset Yellow</text>
+  <text x="191" y="108" font-family="Arial" font-size="1.9" fill="#000000">Dosage : As directed by the Physician.</text>
+  <text x="191" y="110.5" font-family="Arial" font-weight="bold" font-size="1.9" fill="#000000">STORAGE : STORE IN A COOL, DRY &amp; DARK PLACE.</text>
+  <text x="191" y="113" font-family="Arial" font-weight="bold" font-size="1.9" fill="#000000">PROTECT FROM LIGHT.</text>
+  <text x="191" y="115.5" font-family="Arial" font-size="1.9" fill="#000000">Keep the Medicine out of the reach of children.</text>
+  <rect x="191" y="117.5" width="66" height="11" fill="none" stroke="#000000" stroke-width="0.25"/>
+  <text x="192.2" y="120" font-family="Arial" font-size="1.76" fill="#000000">Warning : Taking more than daily dose of Paracetamol</text>
+  <text x="192.2" y="122.3" font-family="Arial" font-size="1.76" fill="#000000">may cause serious liver damage or allergic reactions</text>
+  <text x="192.2" y="124.6" font-family="Arial" font-size="1.76" fill="#000000">(eg. swelling of the face, mouth and throat, difficulty in</text>
+  <text x="192.2" y="126.9" font-family="Arial" font-size="1.76" fill="#000000">breathing, itching or rash.)</text>
+  <rect x="191" y="130.5" width="66" height="6" fill="#E31712"/>
+  <text x="192.2" y="133" font-family="Arial" font-weight="bold" font-size="1.9" fill="#FFFFFF">CAUTION : Not to be sold by retail without the</text>
+  <text x="192.2" y="135.5" font-family="Arial" font-weight="bold" font-size="1.9" fill="#FFFFFF">prescription of a Registered Medical Practitioner.</text>
+  <text x="191" y="139.5" font-family="Arial" font-size="1.9" fill="#000000">Mfg. by : Bajaj Formulations</text>
+  <text x="191" y="142" font-family="Arial" font-weight="bold" font-size="1.9" fill="#000000">(A WHO-GMP &amp; ISO 9001 : 2015 Certified Co.)</text>
+  <text x="191" y="144.5" font-family="Arial" font-size="1.9" fill="#000000">Khasra No. 161, Village- Lakeshwary,</text>
+  <text x="191" y="147" font-family="Arial" font-size="1.9" fill="#000000">Bhagwanpur, Roorkee, Distt. Haridwar (U.K)</text>
+  <circle cx="248" cy="145" r="4.5" fill="#E31712"/>
+  <text x="248" y="144.4" font-family="Arial" font-weight="bold" font-size="1.4" fill="#FFFFFF" text-anchor="middle">WHO-GMP</text>
+  <text x="248" y="146.6" font-family="Arial" font-size="1.2" fill="#FFFFFF" text-anchor="middle">Certified</text>
+
+  <!-- ================= BACK PANEL (brand name goes at y=133, 2pt smaller; design layer allowed inside panel) ================= -->
+  <text x="372" y="101" font-family="Arial" font-weight="bold" font-size="2.82" fill="#000000" text-anchor="end">10 X 10 Tablets</text>
+  <text x="265" y="110" font-family="Arial" font-weight="bold" font-size="5.64" fill="#000000">Aceclofenac, Paracetamol &amp;</text>
+  <text x="265" y="117" font-family="Arial" font-weight="bold" font-size="5.64" fill="#000000">Trypsin - Chymotrypsin</text>
+  <text x="265" y="124" font-family="Arial" font-weight="bold" font-size="5.64" fill="#000000">Tablets</text>
+
+  <!-- ================= END PANEL (batch block fixed; Marketed-by zone y=130..152 is the customer zone) ================= -->
+  <text x="4" y="88.5" font-family="Arial" font-size="2" fill="#000000">Mfg. Lic No. 89/UA/SC/P-2016 &amp; 90/UA/2016</text>
+  <text x="4" y="91.2" font-family="Arial" font-size="2" fill="#000000">निर्माण अनुज्ञप्ति संख्या :</text>
+  <text x="4" y="95" font-family="Arial" font-size="2.2" fill="#000000">Batch No. :</text>
+  <text x="4" y="97.7" font-family="Arial" font-size="2" fill="#000000">बैच संख्या :</text>
+  <text x="4" y="101.5" font-family="Arial" font-size="2.2" fill="#000000">Mfg. Date :</text>
+  <text x="4" y="104.2" font-family="Arial" font-size="2" fill="#000000">उत्पादन तिथि</text>
+  <text x="4" y="108" font-family="Arial" font-size="2.2" fill="#000000">Exp. Date :</text>
+  <text x="4" y="110.7" font-family="Arial" font-size="2" fill="#000000">अवसान तिथि</text>
+  <text x="4" y="114.5" font-family="Arial" font-size="2.2" fill="#000000">M.R.P. ₹ :</text>
+  <text x="4" y="117.2" font-family="Arial" font-size="2" fill="#000000">अधिकतम खुदरा मूल्य</text>
+  <text x="4" y="120.2" font-family="Arial" font-size="2.2" fill="#000000">per 10 tablets</text>
+  <text x="4" y="122.9" font-family="Arial" font-size="2" fill="#000000">प्रति 10 गोली</text>
+  <text x="4" y="125.9" font-family="Arial" font-size="2.2" fill="#000000">(Inclusive of GST)</text>
+  <text x="4" y="128.6" font-family="Arial" font-size="2" fill="#000000">( वस्तु व सेवाकर सहित )</text>
+  <text x="4" y="133" font-family="Arial" font-size="2.6" fill="#000000">Marketed by:</text>
+  <!-- customer zone: logo + company + address + QR go between y=134 and y=152 -->
+
+  <text x="2" y="230" font-family="Arial" font-size="2" fill="#999999">MASTER TEMPLATE — Aceclofenac Paracetamol Trypsin-Chymotrypsin carton 117 x 72 x 70 mm | do not alter dieline | Bajaj Graphix</text>
+</svg>

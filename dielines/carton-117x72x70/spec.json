@@ -1,0 +1,22 @@
+{
+  "slug": "carton-117x72x70",
+  "type": "carton",
+  "style": "reverse-tuck, end panel + front + composition side panel + back + glue flap",
+  "verified_by_plant": false,
+  "dimensions_mm": { "length": 117, "height": 72, "width": 70 },
+  "flap_rule": "flap height = box width (70 mm) for tuck flap and bottom flaps",
+  "canvas_mm": { "w": 384, "h": 232 },
+  "panels": {
+    "dust_flap":        { "x": 72,  "y": 6,   "w": 117, "h": 8 },
+    "tuck_flap":        { "x": 72,  "y": 14,  "w": 117, "h": 70 },
+    "end_panel":        { "x": 2,   "y": 84,  "w": 70,  "h": 72 },
+    "front":            { "x": 72,  "y": 84,  "w": 117, "h": 72 },
+    "composition":      { "x": 189, "y": 84,  "w": 70,  "h": 72 },
+    "back":             { "x": 259, "y": 84,  "w": 117, "h": 72 },
+    "glue_flap":        { "x": 376, "y": 84,  "w": 6,   "h": 72 },
+    "bottom_flap_front":{ "x": 72,  "y": 156, "w": 117, "h": 70 },
+    "bottom_flap_back": { "x": 259, "y": 156, "w": 117, "h": 70 }
+  },
+  "dieline_svg": "dieline.svg",
+  "history": "Dimensions provided by user 14 Aug 2026. First used for Aceclofenac+Paracetamol+Trypsin-Chymotrypsin (see examples/)."
+}

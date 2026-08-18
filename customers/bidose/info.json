@@ -1,0 +1,13 @@
+{
+  "company": "BiDose Pharmaceutical Pvt. Ltd.",
+  "slug": "bidose",
+  "marketed_by_lines": [
+    "BiDose Pharmaceutical Pvt. Ltd.",
+    "L-3, Rama Park Road, Mohan Garden,",
+    "Uttam Nager, New Delhi -110059"
+  ],
+  "brand_colors": { "blue": "#1B9DD9", "orange": "#F7941D", "yellow": "#FDB913", "dark": "#3A3A3C" },
+  "logo": "logo.svg",
+  "logo_note": "Vector recreation: blue/yellow capsule icon + 'BiDose' wordmark in blue; company line sets 'BiDose' in orange, rest dark.",
+  "brands": { "BIDOL-FORTE": "aceclofenac-paracetamol-trypsin-carton (plant original design, red)", "AI TEST": "aceclofenac-paracetamol-trypsin-carton (purple/orange hexagon test design, 14 Aug 2026)" }
+}

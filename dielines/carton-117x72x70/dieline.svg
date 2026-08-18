@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="384mm" height="232mm" viewBox="0 0 384 232">
+  <title>DIELINE carton 117x72x70</title>
+  <!-- FROZEN GEOMETRY - copy this group verbatim into every design; never modify -->
+  <rect x="0" y="0" width="384" height="232" fill="#FFFFFF"/>
+  <g fill="none" stroke="#999999" stroke-width="0.2">
+    <rect x="72" y="6" width="117" height="8"/>           <!-- dust flap -->
+    <rect x="72" y="14" width="117" height="70"/>         <!-- tuck flap (H = box width 70) -->
+    <rect x="2" y="84" width="70" height="72"/>           <!-- end panel (W70 x H72) -->
+    <rect x="72" y="84" width="117" height="72"/>         <!-- front panel (L117 x H72) -->
+    <rect x="189" y="84" width="70" height="72"/>         <!-- composition panel (W70 x H72) -->
+    <rect x="259" y="84" width="117" height="72"/>        <!-- back panel (L117 x H72) -->
+    <rect x="376" y="84" width="6" height="72"/>          <!-- glue flap -->
+    <rect x="72" y="156" width="117" height="70"/>        <!-- bottom flap front (H = box width 70) -->
+    <rect x="259" y="156" width="117" height="70"/>       <!-- bottom flap back (H = box width 70) -->
+  </g>
+</svg>

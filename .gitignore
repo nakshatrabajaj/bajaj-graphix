@@ -1,0 +1,5 @@
+# per-operator daily outputs stay local — the shared repo carries rules, dielines, customers, examples
+jobs/
+
+# OS noise
+.DS_Store
