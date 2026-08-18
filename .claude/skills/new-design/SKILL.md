@@ -21,11 +21,12 @@ Read every text block from the uploaded mockup verbatim: composition lines, colo
 
 ## Step 3 — Build each variant
 
-Start from the dieline's `dieline.svg` (copy its `<g>` geometry verbatim — never modify), then add:
+Start from the dieline's `dieline.svg` (copy its `<g>` geometry verbatim — never modify; place it LAST in the file so the mark lines paint on top of the design), then add:
 - The transcribed fixed text in the standard layout (see `examples/aceclofenac-carton-master-example.svg` for the canonical panel layout and font sizes: generic name 16 pt bold, body ~5.4 pt, warning box, red CAUTION strip, WHO-GMP seal, batch block with Hindi).
 - **Brand name**: 2 pt smaller than the generic name, brand color, under the generic name on front, back, and tuck flap.
 - **Marketed-by block**: customer logo (vector), company, address, QR placeholder.
-- **Design layer**: vector-only motifs/bands inside front/back/tuck panels; vary palette + motif family per variant; follow references if given. Never over regulatory text, never outside panels.
+- **Design layer**: vector-only motifs/bands on front/back/tuck panels; vary palette + motif family per variant; follow references if given. Never over regulatory text.
+- **Bleed**: replicate the uploaded mockup — wherever its design crosses a border line, cross the same line the same way (~3 mm past cut edges and flap folds, ~1.5 mm across internal panel folds, staying clear of regulatory text). The mark lines never move and always paint on top.
 
 All text: plain `<text>`, Arial, whole strings, mm coordinates (1 pt = 0.3528 mm).
 

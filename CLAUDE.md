@@ -11,7 +11,9 @@ One box size serves MANY products/compositions, so the library stores **dieline 
 
 ## HARD RULES — never violate these
 
-1. **The dieline is untouchable.** Panel sizes, flap sizes, cut/crease mark lines come from the plant's die-cutting tooling. Copy the library dieline's `<g>` verbatim into every design. Never redraw, move, resize, restyle, add, or drop dieline geometry. The design layer only sits INSIDE the fixed panels.
+1. **The dieline is untouchable.** Panel sizes, flap sizes, cut/crease mark lines come from the plant's die-cutting tooling. Copy the library dieline's `<g>` verbatim into every design. Never redraw, move, resize, restyle, add, or drop dieline geometry.
+   - **Mark-line style (user requirement, 18 Aug 2026):** mark lines are drawn plant-style — long crossing LINES that overshoot each corner/junction by ~3 mm, exactly like the CDR mockups — never closed rectangles with neat corners. In finished designs the dieline `<g>` is placed LAST in the file so the lines paint ON TOP of the design layer and stay visible.
+   - **Bleed:** replicate the uploaded mockup — wherever its design crosses a border line, the generated design layer crosses the same line the same way (reference measurements: ~3 mm past cut edges and into flap folds, ~1.5 mm across internal panel folds, kept clear of regulatory text). Bleed is ink overflow only; the mark lines themselves never move.
 2. **Never estimate dimensions.** If exact measurements (carton L×H×W; foil paper width + column repeats) are not provided, STOP and ask. Do not derive sizes from images.
 3. **Flap height = box width.** Tuck flap and bottom flaps fold over to become the top/bottom faces (L×W), so their height equals the box WIDTH (e.g. 117×72×70 carton → 70 mm flaps).
 4. **Brand name is 2 pt smaller than the composition (generic) name**, in the brand color, under the generic name on front, back, and tuck-flap panels.

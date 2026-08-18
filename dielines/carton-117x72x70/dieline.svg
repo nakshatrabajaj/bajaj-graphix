@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="384mm" height="232mm" viewBox="0 0 384 232">
   <title>DIELINE carton 117x72x70</title>
-  <!-- FROZEN GEOMETRY - copy this group verbatim into every design; never modify -->
+  <!-- FROZEN GEOMETRY - copy this group verbatim into every design; never modify.
+       Plant style: mark LINES that cross and overshoot each corner by 3mm (not closed rects).
+       In finished designs this group is painted LAST (on top of the design layer). -->
   <rect x="0" y="0" width="384" height="232" fill="#FFFFFF"/>
   <g fill="none" stroke="#999999" stroke-width="0.2">
-    <rect x="72" y="6" width="117" height="8"/>           <!-- dust flap -->
-    <rect x="72" y="14" width="117" height="70"/>         <!-- tuck flap (H = box width 70) -->
-    <rect x="2" y="84" width="70" height="72"/>           <!-- end panel (W70 x H72) -->
-    <rect x="72" y="84" width="117" height="72"/>         <!-- front panel (L117 x H72) -->
-    <rect x="189" y="84" width="70" height="72"/>         <!-- composition panel (W70 x H72) -->
-    <rect x="259" y="84" width="117" height="72"/>        <!-- back panel (L117 x H72) -->
-    <rect x="376" y="84" width="6" height="72"/>          <!-- glue flap -->
-    <rect x="72" y="156" width="117" height="70"/>        <!-- bottom flap front (H = box width 70) -->
-    <rect x="259" y="156" width="117" height="70"/>       <!-- bottom flap back (H = box width 70) -->
+    <line x1="0" y1="84" x2="384" y2="84"/>       <!-- panel row top -->
+    <line x1="0" y1="156" x2="384" y2="156"/>     <!-- panel row bottom -->
+    <line x1="69" y1="6" x2="192" y2="6"/>        <!-- dust flap top -->
+    <line x1="69" y1="14" x2="192" y2="14"/>      <!-- dust/tuck flap fold -->
+    <line x1="69" y1="226" x2="192" y2="226"/>    <!-- bottom flap front edge -->
+    <line x1="256" y1="226" x2="379" y2="226"/>   <!-- bottom flap back edge -->
+    <line x1="72" y1="3" x2="72" y2="229"/>       <!-- end|front boundary + flap sides -->
+    <line x1="189" y1="3" x2="189" y2="229"/>     <!-- front|composition boundary + flap sides -->
+    <line x1="2" y1="81" x2="2" y2="159"/>        <!-- sheet left edge -->
+    <line x1="259" y1="81" x2="259" y2="229"/>    <!-- composition|back boundary -->
+    <line x1="376" y1="81" x2="376" y2="229"/>    <!-- back|glue flap boundary -->
+    <line x1="382" y1="81" x2="382" y2="159"/>    <!-- glue flap edge -->
   </g>
 </svg>
